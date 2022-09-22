@@ -5,12 +5,11 @@ import { SignMessage } from '../../components/SignMessage';
 export const SubmitView: FC = ({ }) => {
 
   return (
-    <div>
-    
+
     <div className="flex justify-center">
       <div className="mb-3 xl:w-96">
         <label for="examplePassword0" class="form-label inline-block mb-2 text-purple-700"
-          >Enter your Solana sub-domain</label
+          >Enter your Sub-domain</label
         >
         <input
           type="Discord"
@@ -36,6 +35,5 @@ export const SubmitView: FC = ({ }) => {
         />
       </div>
     </div>
-  </div>
   );
 };
