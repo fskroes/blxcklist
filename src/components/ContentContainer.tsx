@@ -14,16 +14,26 @@ export const ContentContainer: FC = props => {
       <div className="drawer-side">
         <label htmlFor="my-drawer" className="drawer-overlay"></label>
         <ul className="p-4 overflow-y-auto menu w-80 bg-base-100">
-          <li>
-            <Link href="/">
-              <a>BLXCKLIST</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/basics">
-              <a>BLXCKMAP</a>
-            </Link>
-          </li>
+        <li>
+          <Link href="/submit">
+            <a>SUBMIT PROFILE</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/">
+            <a>BLXCKLIST</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/blxckmap">
+            <a>BLXCKMAP</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/blxckmap">
+            <a>GOVERNANCE</a>
+          </Link>
+        </li>
         </ul>
       </div>
     </div>

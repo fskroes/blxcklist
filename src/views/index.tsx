@@ -1,2 +1,3 @@
 export { HomeView } from "./home";
-export { BasicsView } from "./basics";
+export { SubmitView } from "./submit";
+export { BlxckmapView } from "./blxckmap";
